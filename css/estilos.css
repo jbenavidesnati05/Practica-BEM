@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #F6F6FE;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contenedor {
+	max-width: 800px;
+	width: 90%;
+	margin: 0 auto;
+}
+.contenedor__cards{
+	margin: 70px 0px;
+}
+
+.card {
+	background-color: #F6F6FE;
+	border-radius: 15px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 50px;
+}
+.card__thumbnail {
+	width: 650px;
+	height: 200px;
+	/* background: #000; */
+	margin-right: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: inline-block;
+}
+.card__img{
+	width: 100%;
+}
+.card__titulo {
+	font-family: "releway",sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.card__enlace{
+	color: black;
+}
+.card__extracto{
+	line-height: 28px;
+	color: gray;
+	margin-bottom: 20px;
+}
+.boton{
+border: none;
+min-width: 180px;
+height: 50px;
+padding: 0 30px;
+border-radius: 100px;
+background: rgb(11, 44, 115);
+color: white;
+display: inline-flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.3s ease all;
+}
+boton:hover{
+	text-decoration: none;
+}
+.boton--absolute{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.boton--azul{
+	background:rgb(21, 23, 155);
+}
+.boton--azul:hover{
+	background-color: rgb(16, 203, 212);
+	color: #000;
+}
+.boton--verde{
+	background-color: green;
+}
+.boton--verde:hover{
+	background-color: rgb(27, 235, 40);
+	color: #000;
+}
+.frase{
+	text-align: center;
+	margin: 70px;
+}
+.frase__texto{
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	font-style: italic;
+}
